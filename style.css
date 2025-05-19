@@ -374,9 +374,8 @@ header ul a{
     align-items: center;
     position: relative;
     width: 80%;
-    height: 100vh;
-    margin-top: 150px;
-    margin-bottom: 700px;
+    height: 100%;
+    margin: 150px 0 ;
 }
 
 .project-card{
@@ -387,8 +386,7 @@ header ul a{
     gap: 10%;
     justify-content: center;
 }
-
-.project-vidbox{
+.project-imgbox{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -399,18 +397,17 @@ header ul a{
     transition: 0.5s;
     mix-blend-mode: exclusion;
 }
-
-.project-vidbox video{
+.project-imgbox img{
     object-fit: cover;
     width: 100%;
     box-shadow: 0 0 10px lightgrey;
     border-radius: 20px;
     transition: 0.5s;
 }
-
-.project-vidbox video:hover{
+.project-imgbox video:hover{
     box-shadow: 0 0 20px lightgrey;
 }
+
 .project-info{
     display: flex;
     flex-direction: column;
@@ -514,7 +511,7 @@ header ul a{
     position: absolute;
     bottom: 5%;
     /* right: 30%; */
-    width: 35%;
+    width: 20%;
     height: var(--height);
     overflow: hidden;
 
@@ -639,7 +636,7 @@ header ul a{
 }
 
 .contact-box {
-    flex: 2;
+    flex: 3;
 }
 
 .contact-box p {
